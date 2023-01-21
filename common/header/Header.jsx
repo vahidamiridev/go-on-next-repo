@@ -18,19 +18,7 @@ const Header = () => {
           </li>
         </Items>
       </header>
-      <div>
-        <Btn onClick={() => setIsLoading((prev) => !prev)}>CHANGE</Btn>
 
-        <Btn color="primary" variant="contained" onClick={() => {}}>
-          -5
-        </Btn>
-        <Btn color="primary" variant="contained" onClick={() => {}}>
-          +2
-        </Btn>
-        <Btn color="primary" variant="contained" onClick={() => {}}>
-          -2
-        </Btn>
-      </div>
   
 
     </>
